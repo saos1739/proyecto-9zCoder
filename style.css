@@ -59,7 +59,8 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color:#78288C;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,0.5102415966386555) 35%, rgba(0,212,255,1) 100%);
     justify-content: space-between;
     text-decoration: none;
 }
@@ -130,7 +131,8 @@ h4{
     height: 315px;
 }
 .grid-container-sponsors{
-    background-color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,0.5102415966386555) 35%, rgba(0,212,255,1) 100%);
     display:grid;
     grid-template-columns: 1fr;
     border: 42x solid black;
@@ -148,7 +150,8 @@ h4{
     padding: 50px;
     margin: 50px;
     display: grid;
-    background-color: #78288C;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,0.5102415966386555) 35%, rgba(0,212,255,1) 100%);
     grid-template-rows: 550px 550px 550px 550px 550px  ;
     border: 2px solid black;
 }
@@ -184,7 +187,8 @@ h4{
 .formacion{
     display: grid;
     grid-template-rows: 3fr;
-    background-color: #78288C;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,0.5102415966386555) 35%, rgba(0,212,255,1) 100%);
 }
 
 
