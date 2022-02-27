@@ -1,0 +1,272 @@
+html{
+    position: relative
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(../imagenes/fondo2.png);
+    background-size: contain;
+    background-position: 50px;
+    
+}
+
+
+#logo9z{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+#titulocentral{
+    text-align: center;
+    padding: 50px;
+    color: cyan;
+}
+body{
+    background-color: white;
+}
+
+footer{
+    background-color: #78288C;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    height: 50px;
+    margin: 15px;
+padding: 20px;  
+
+    
+}
+#logoig{
+    width: 40px;
+    height: 40px;
+}
+#logotw{
+    width: 40px;
+    height: 40px;
+}
+#logoyt{
+    width: 40px;
+    height: 40px;
+}
+#logotiktok{
+    width: 40px;
+    height: 40px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:#78288C;
+    justify-content: space-between;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+li{
+    
+    display: inline-block;
+    margin: 25px;
+}
+
+#fondo{
+    background: url(../imagenes/fondo.jpg);
+}
+p{
+    color: white;
+}
+label{
+    color: white;
+}
+
+ul{
+    color: black;
+}
+
+.Img__top{
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black ;
+   
+}
+.Img__mid{
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black ;
+}
+
+.Img__jg{
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black ;
+}
+.Img__adc{
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black ;
+}
+.Img__supp{
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black ;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+.NOVEDADES{
+    text-align: center;
+    color: white;
+}
+.img__win{
+    width: 560px;
+    height: 315px;
+}
+.grid-container-sponsors{
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr;
+    border: 42x solid black;
+}
+
+.grid-item{
+    border: 4px solid black;
+    display: flex;
+   justify-content: center;
+}
+
+.grid-containerlol{
+    padding: 50px;
+    margin: 50px;
+    display: grid;
+    background-color: #78288C;
+    grid-template-rows: 550px 550px 550px 550px 550px  ;
+    border: 2px solid black;
+}
+
+.div__newscsgo{
+    color: white;
+}
+.img__lemon{
+    width: 225px;
+    height: 225px;
+}
+.img__redbull{
+    width: 225px;
+    height: 225px;
+}
+
+.grid-container-header {
+    display: grid;
+    grid-template-rows: 1fr;
+    
+}
+
+.twitter-timeline{
+    display: flex;
+    align-content: center;
+
+}
+.afj-img{
+    height: 720px;
+    width: 720px;
+}
+
+.formacion{
+    display: grid;
+    grid-template-rows: 3fr;
+    background-color: #78288C;
+}
+
+
+
+#clips{
+    width: 560px;
+    height: 315px;
+}
+
+
+
+
+
+
+/* CELULAR */
+@media only screen and (max-width:360px) 
+ {
+
+   
+    .grid-container-sponsors{
+        background-color: #78288C;
+        grid-template-rows: 2fr;
+
+            
+    }
+    .grid-container-header{
+        display: block
+    
+
+    }
+
+
+.grid-itemlol{
+    width: 170px;
+    height: 170px;
+}
+    
+.footer{
+    display: flex;
+    align-items: flex-end;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+#logoig{
+    width: 20px;
+    height: 20px;
+}
+#logotw{
+    width: 20px;
+    height: 20px;
+}
+#logoyt{
+    width: 20px;
+    height: 20px;
+}
+#logotiktok{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+footer{
+    background-color: #78288C;
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    height: 50px;
+}
+
+.grid-container-header{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+ .item-header{
+     border: 2px solid black;
+ }
+
+.videos{
+width: 120px;
+height: 120px;
+border: 1px solid black;
+}
+
+
+ }
