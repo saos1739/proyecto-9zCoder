@@ -11,6 +11,12 @@ body{
     
 }
 
+#carouselExampleDark{
+    width: 250px;
+    height: 250px;
+}
+
+
 
 #logo9z{
     height: 300px;
@@ -89,6 +95,7 @@ label{
 ul{
     color: black;
 }
+
 
 .Img__top{
     margin: 40px;
@@ -184,7 +191,7 @@ h4{
     width: 720px;
 }
 
-.formacion{
+.containercsgo{
     display: grid;
     grid-template-rows: 3fr;
     background: rgb(2,0,36);
