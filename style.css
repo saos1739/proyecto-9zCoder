@@ -96,7 +96,7 @@ ul{
     color: black;
 }
 
-
+/*  
 .Img__top{
     margin: 40px;
     padding: 40px;
@@ -124,6 +124,7 @@ ul{
     padding: 40px;
     border: solid 10px black ;
 }
+/*  */
 
 h4{
     text-align: center;
@@ -205,7 +206,22 @@ h4{
     height: 315px;
 }
 
+.zakk{
+    width: 250px;
+    height: 250px;
+}
 
+.afj-img{
+    width: 680px;
+    height: 383px;
+}
+
+.rmr{
+    width: 680px;
+    height: 383px;
+}
+    
+}
 
 
 
