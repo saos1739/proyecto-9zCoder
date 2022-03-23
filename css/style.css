@@ -11,6 +11,33 @@ body {
   width: 250px;
   height: 250px; }
 
+.img__lemon {
+  width: 225px;
+  height: 225px;
+  border: 2px solid black; }
+
+.img__logi {
+  width: 225px;
+  height: 225px;
+  border: 2px solid black; }
+
+.img__redbull {
+  width: 225px;
+  height: 225px;
+  border: 2px solid black; }
+
+.afj-img {
+  width: 680px;
+  height: 383px; }
+
+.img__win {
+  width: 680px;
+  height: 383px; }
+
+.dignitas {
+  width: 680px;
+  height: 383px; }
+
 #logo9z {
   height: 300px;
   width: 300px;
@@ -33,6 +60,10 @@ footer {
   height: 50px;
   margin: 30px;
   padding: 30px; }
+
+#div__newscsgo h3 {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline; }
 
 #logoig {
   width: 40px;
@@ -163,10 +194,6 @@ h4 {
 .twitter-timeline {
   display: flex;
   align-content: center; }
-
-.afj-img {
-  height: 720px;
-  width: 720px; }
 
 .containercsgo {
   display: grid;

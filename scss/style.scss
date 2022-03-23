@@ -5,7 +5,7 @@ html{
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: url(imagenes/fondo2.png);
+    background: url(../imagenes/fondo2.png);
     background-size: contain;
     background-position: 50px;
     
@@ -16,7 +16,40 @@ body{
     height: 250px;
 }
 
+@mixin sponsor {
+    width: 225px;
+    height: 225px;
+    border: 2px solid black;
+}
 
+.img__lemon{
+    @include sponsor;
+}
+
+.img__logi{
+    @include sponsor;
+}
+
+.img__redbull{
+    @include sponsor;
+}
+
+@mixin pnglol {
+    width: 680px;
+    height: 383px;
+}
+
+.afj-img{
+    @include pnglol;
+}
+
+.img__win{
+    @include pnglol;
+}
+
+.dignitas{
+    @include pnglol;
+}
 
 #logo9z{
     height: 300px;
@@ -43,10 +76,10 @@ footer{
     padding: 30px;      
 }
 
-.div__newscsgo{
+#div__newscsgo{
     h3{
-        font-family:'Times New Roman', Times, serif
-
+        font-family:'Times New Roman', Times, serif;
+        text-decoration: underline;
     }
 }
 
@@ -195,10 +228,7 @@ h4{
     align-content: center;
 
 }
-.afj-img{
-    height: 720px;
-    width: 720px;
-}
+
 
 .containercsgo{
     display: grid;
